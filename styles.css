@@ -79,3 +79,24 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  
+  h1 {
+    font-size: 2.5rem; /* Smaller font size for mobile */
+    text-shadow: 2px 0 #DA0463;
+  }
+
+  .drum {
+    border: 5px solid #404B69;
+    font-size: 3rem;
+    width: 100px;
+    height: 100px;
+  }
+
+  .set {
+    margin: 5% auto;
+  }
+
+  /* Add any other necessary style adjustments for mobile here */
+}
